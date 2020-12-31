@@ -235,6 +235,27 @@ section .title::after{
 .about .about-content .right a{
     padding-right: 15px;
 }
+.about .about-content .right .button{
+    height: 35px;
+    width: 130px;
+}
+.about .about-content .right .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(7, 189, 189);
+    background: rgb(7, 189, 189);
+    color: #fff;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.about .about-content .right .button button:hover{
+    color: rgb(7, 189, 189);;
+    background: none;
+}
 
 /* project section styling */
 .certifject, .teams{
